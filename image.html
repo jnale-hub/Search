@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="icon" href="assets/icon.png">
+    
+    <title>Image</title>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="nav1">
+        <div class="nav-google">
+            <div class="nav-google">
+                <a class="nav-link" href="index.html">Google</a>
+                <a class="nav-link" href="advanced.html">Advanced Search</a>
+            </div>
+            <div class="icons">
+                <a href="https://workspace.google.com"><div data-toggle="tooltip" data-placement="bottom" title="Google apps" class="small nav-icon"><img
+                        id="dots" src="assets/dot.png"></div></a>
+                <div class="nav-icon" id="div-icon"></div>
+                <a href="https://myaccount.google.com/"><div data-toggle="tooltip" title="Google Account
+Mr. Surprised Cat
+mr.surprizedcat@gmail.com" class="small nav-icon"><img id="picture" src="assets/unnamed.jpg"></div>
+            </div></a>
+        </div>
+    </div>
+    <div class="center-div">
+        <div class="image-div">
+            <img src="assets/google.png" alt="Google Icon" height="92">
+            <span id="image">Image</span>
+        </div>
+    </div>
+
+    <div class="google-input">
+        <form action="https://google.com/search">
+            <div class="rounded-input">
+                <div class="input-in">
+                    <i class="fa fa-search opacity"></i>
+                    <input type="text" class="input-bar" name="q">
+                    <div data-toggle="tooltip" data-placement="bottom" title="Search by voice" class="small nav-icon">
+                        <a href="https://assistant.google.com"><img class="icon" id="voice"
+                                src="assets/googlevoice.png">
+                    </div></a>
+                    <div data-toggle="tooltip" data-placement="" title="Search by image" class="small nav-icon">
+                        <a href="https://lens.google/"><img class="icon" id="camera" src="assets/googlecamera.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-div top">
+                <input type="submit" class="btn-google" value="Google Image">
+            </div>
+        </form>
+    </div>
+
+    <footer class="mt-5 small text-center text-muted">
+        Gooole clone created by <a href="https://github.com/jnale-hub">John Mark Delima</a>
+    </footer>
+</body>
+
+</html>
